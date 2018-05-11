@@ -1,0 +1,8 @@
+<h1>index:</h1>
+<ul>
+  <%User.all.each do |user|%>
+    <li>
+      "<%=user.email%>"
+    </li>
+  <%end%>
+</ul>

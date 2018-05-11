@@ -1,0 +1,7 @@
+'In #password= use self.password_digest=. (self.___= calls a setter method defined for us by ActiveRecord, which is the state that is saved by self.save. While @___ makes a new instance variable, unrelated to self.save)'
+
+taken from today's project
+this is hard to read. specifically, self.password_digest=. (self.___=
+this is not rubylike at all. write for the human, not the computer. 
+something as simple as putting the aside on a new line
+would cut out all confusion at a small aesthetic cost. definitely worth.
